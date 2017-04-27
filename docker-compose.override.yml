@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  siliconvalve.gab2017.demowebcore:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"

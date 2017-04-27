@@ -1,0 +1,31 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: gabdemo
+spec:
+  ports:
+    - port: 80
+  selector:
+    app: gabdemo
+  type: LoadBalancer
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: gabdemo
+spec:
+  replicas: 3
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: gabdemo
+    spec:
+      containers:
+      - image: YOUR_ACR_HERE.azurecr.io/gab2017/siliconvalve.gab2017.demowebcore:1.1
+        name: siliconvalve-gab2017-demowebcore
+        ports:
+        - containerPort: 80
+      imagePullSecrets:
+      - name: YOUR_SECRET_HERE

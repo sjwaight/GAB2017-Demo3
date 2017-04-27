@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiliconValve.Gab2017.DemoWebCore", "SiliconValve.Gab2017.DemoWebCore\SiliconValve.Gab2017.DemoWebCore.csproj", "{0247062C-F87F-4E3A-853D-21861FE84DE0}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{3C530190-5519-429F-B319-7EF86ECC0749}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0247062C-F87F-4E3A-853D-21861FE84DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0247062C-F87F-4E3A-853D-21861FE84DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0247062C-F87F-4E3A-853D-21861FE84DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0247062C-F87F-4E3A-853D-21861FE84DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C530190-5519-429F-B319-7EF86ECC0749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C530190-5519-429F-B319-7EF86ECC0749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C530190-5519-429F-B319-7EF86ECC0749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C530190-5519-429F-B319-7EF86ECC0749}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
